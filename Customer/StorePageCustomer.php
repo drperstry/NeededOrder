@@ -1,31 +1,6 @@
-<!DOCTYPE html>
-<html style="background-color: rgba(30,184,150,0);">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Stor Page</title>
-    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../assets/fonts/material-icons.min.css">
-    <link rel="stylesheet" href="../assets/css/Login-Form-Dark.css">
-    <link rel="stylesheet" href="../assets/css/styles.css">
-    <link rel="stylesheet" href="../assets/css/styles2.css">
-</head>
-
-<body class="m-auto" style="background-color: #6deed2;">
-    <nav class="navbar navbar-light navbar-expand-md" style="background-color: #1eb896;margin-bottom: 15px;">
-        <div class="container-fluid"><img src="../assets/img/logo.png" style="width: 93px;height: 71px;"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div
-                class="collapse navbar-collapse text-right" id="navcol-1">
-                <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item text-right" role="presentation"><a class="nav-link" href="Customer%20HP.html" style="margin: 0px;margin-right: 24px;">Stores</a></li>
-                    <li class="nav-item text-right" role="presentation"><a class="nav-link" href="RecentOrdersCustomer.html" style="margin: 0px;margin-right: 89px;">My Recent Orders</a></li>
-                    <li class="nav-item text-right" role="presentation"><a class="nav-link" href="UserProfileCustomer.html" style="margin: 0px;margin-right: 0px;">Profile</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="../index.html">Sign Out</a></li>
-                </ul>
-        </div>
-        </div>
-    </nav>
+<?php
+include_once 'Header.php';
+?>
     <header class="bg-white" style="background-color: rgb(157,255,243);">
         <div style="background-color: #6deed2;color: rgb(0,143,100);margin: 0px;padding: 15px;"><img class="rounded-circle" src="../assets/img/MaC.png" width="100" height="100" style="margin-right: 3px;">
             <h1 class="text-center d-inline float-none align-items-center m-auto align-items-md-center">McDonald's</h1><a class="float-right d-sm-flex justify-content-sm-end align-items-sm-center" href="Customer%20HP.html"><i class="material-icons">arrow_back</i>Back</a></div>
@@ -309,9 +284,7 @@
                 </div>
             </div>
         </div>
-    </div><a class="btn btn-info btn-block btn-lg float-none d-sm-flex flex-grow-1 flex-shrink-1 justify-content-sm-center" role="button" style="background-color: #1eb896;height: 46px;" href="DeliveryInfoPage.html">Submit Order</a>
-    <script src="../assets/js/jquery.min.js"></script>
-    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
-</body>
-
-</html>
+    </div><a class="btn btn-info btn-block btn-lg float-none d-sm-flex flex-grow-1 flex-shrink-1 justify-content-sm-center" role="button" style="background-color: #1eb896;height: 46px;" href="DeliveryInfoPage.php">Submit Order</a>
+    <?php
+include_once 'footer.php';
+?>

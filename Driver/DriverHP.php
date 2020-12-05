@@ -1,29 +1,6 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Home Page</title>
-    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../assets/fonts/material-icons.min.css">
-    <link rel="stylesheet" href="../assets/css/Login-Form-Dark.css">
-    <link rel="stylesheet" href="../assets/css/styles.css">
-</head>
-
-<body style="background-color: #6deed2;">
-    <nav class="navbar navbar-light navbar-expand-md" style="background-color: #1eb896;">
-        <div class="container-fluid"><img src="../assets/img/logo.png" style="width: 93px;height: 71px;"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div
-                class="collapse navbar-collapse text-right" id="navcol-1">
-                <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="margin-right: 200px;">Orders</a></li>
-                    <li class="nav-item text-right" role="presentation"><a class="nav-link" href="UserProfileDriver.html" style="margin: 0px;margin-right: 0px;">Profile</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="../index.html">Sign Out</a></li>
-                </ul>
-        </div>
-        </div>
-    </nav>
+<?php
+include_once 'Header.php';
+?>
     <h2 class="text-center" style="margin: 20px;margin-bottom: 30px;background-color: #1eb896;">Home Page</h2>
     <h2 class="text-center" style="margin: 20px;margin-bottom: 30px;">Accepted Orders</h2>
     <div class="table-responsive border rounded-0" style="color: #1eb896;background-color: #1eb896;">
@@ -39,7 +16,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <td><a href="OrderInfoDriver.html" style="color: #1e2833;">1002</a></td>
+                    <td><a href="OrderInfoDriver.php" style="color: #1e2833;">1002</a></td>
                     <td>7HRGC32P+F9<br></td>
                     <td>7HRGC32P+F9<br></td>
                     <td style="color: #212529;">+966503214642</td>
@@ -49,7 +26,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td><a href="OrderInfoDriver.html" style="color: #1e2833;">1232</a></td>
+                    <td><a href="OrderInfoDriver.php" style="color: #1e2833;">1232</a></td>
                     <td>7HRA232P+F9<br></td>
                     <td>7HRGA22P+F9<br></td>
                     <td>+966501414642<br></td>
@@ -91,8 +68,6 @@
             </tbody>
         </table>
     </div>
-    <script src="../assets/js/jquery.min.js"></script>
-    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
-</body>
-
-</html>
+    <?php
+include_once 'footer.php';
+?>

@@ -31,7 +31,7 @@
         <div class="illustration"></div>
         <div class="form-group" style="padding: 3px;margin: 0;margin-top: 33px;margin-bottom: 20px;"><label>E-mail&nbsp; &nbsp; &nbsp;</label><input class="form-control" type="email" name="email" placeholder="Email" style="background-color: rgb(109,238,210);"></div>
         <div class="form-group" style="margin-top: 50px;margin-bottom: 60px;"><label>Password</label><input class="form-control" type="password" name="password" placeholder="Password" style="background-color: rgb(109,238,210);"></div>
-        <div class="form-group" style="margin-bottom: 4px;"><a class="forgot" href="#" style="margin-left: 106px;">Forgot password?</a><a class="btn btn-primary" role="button" href="Customer/Customer%20HP.html" style="width: 120px;padding-right: 0;padding-left: 0;margin-left: 106px;background-color: rgb(109,238,210);color: rgb(33,37,41);">Log In</a></div>
+        <div class="form-group" style="margin-bottom: 4px;"><a class="forgot" href="#" style="margin-left: 106px;">Forgot password?</a><a class="btn btn-primary" role="button" href="Staff/StaffHP.php" style="width: 120px;padding-right: 0;padding-left: 0;margin-left: 106px;background-color: rgb(109,238,210);color: rgb(33,37,41);">Log In</a></div>
     </form>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
