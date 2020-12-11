@@ -20,11 +20,7 @@
                     <li class="nav-item" role="presentation"><a class="nav-link" href="GenerateReportStaff.php" style="margin-right: 2px;">Reports</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="userManagementStaff.php" style="margin-right: 98px;">Users Management</a></li>
                     <li class="nav-item text-right" role="presentation"><a class="nav-link" href="UserProfileAdmin.php" style="margin-right: 0px;">Profile</a></li>
-<<<<<<< HEAD:Admin/Header.php
                     <li class="nav-item" role="presentation"><a class="nav-link" href="../LogOut.php">Sign Out</a></li>
-=======
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="../index.php">Sign Out</a></li>
->>>>>>> 241e07ab2af16e6cf193e51f47b47eb5cac9b52b:Admin/AdminHP.html
                 </ul>
             </div>
         </div>

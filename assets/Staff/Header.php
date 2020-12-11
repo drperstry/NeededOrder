@@ -21,11 +21,7 @@
                     <li class="nav-item text-right" role="presentation"><a class="nav-link" href="ManageItems.php" style="margin: 0px;margin-right: 12px;">Manage Items</a></li>
                     <li class="nav-item text-right" role="presentation" style="margin-right: 12px;"><a class="nav-link" href="StaffHP.php" style="margin: 0px;margin-right: 0px;">Recent Orders</a></li>
                     <li class="nav-item text-right" role="presentation"><a class="nav-link" href="UserProfileStaff.php" style="margin: 0px;margin-right: 0px;">Profile</a></li>
-<<<<<<< HEAD:Staff/Header.php
                     <li class="nav-item" role="presentation"><a class="nav-link" href="../LogOut.php" style="margin-left: 10px;">Sign Out</a></li>
-=======
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="../index.php" style="margin-left: 10px;">Sign Out</a></li>
->>>>>>> 241e07ab2af16e6cf193e51f47b47eb5cac9b52b:Customer/PaymentMethod.html
                 </ul>
         </div>
         </div>

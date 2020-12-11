@@ -11,7 +11,11 @@ include_once 'Header.php';
             </ul>
         </div>
         <div class="card-body" style="background-color: #1eb896;">
+<<<<<<< HEAD
             <h4 class="card-title">Customer</h4>
+=======
+            <h4 class="card-title">Customer<label class="text-left" style="margin-left: 31px;margin-bottom: 8px;margin-right: 0px;font-size: 16px;">Search&nbsp;&nbsp;<input class="border rounded-0 border-primary" type="search" style="width: 155px;background-color: #6deed2;" autofocus="" autocomplete="on"></label></h4>
+>>>>>>> 241e07ab2af16e6cf193e51f47b47eb5cac9b52b
             <div
                 class="table-responsive border rounded-0 shadow-sm">
                 <table class="table">
@@ -22,6 +26,7 @@ include_once 'Header.php';
                         </tr>
                     </thead>
                     <tbody>
+<<<<<<< HEAD
                     <?php
                         include "../config.php";
                         $sql="SELECT * FROM userdata WHERE Utype= 'Customer'";
@@ -57,6 +62,18 @@ include_once 'Header.php';
                     </tbody>
                 </table>
                 
+=======
+                        <tr>
+                            <td>assad122</td>
+                            <td><select style="background-color: #6deed2;"><optgroup label="Change Status"><option value="1" selected="">Active</option><option value="2">ban</option></optgroup></select></td>
+                        </tr>
+                        <tr>
+                            <td>sami322</td>
+                            <td><select style="background-color: #6deed2;"><optgroup label="Change Status"><option value="1" selected="">Active</option><option value="2">Ban</option></optgroup></select></td>
+                        </tr>
+                    </tbody>
+                </table>
+>>>>>>> 241e07ab2af16e6cf193e51f47b47eb5cac9b52b
         </div>
     </div>
     <?php

@@ -1,0 +1,66 @@
+#LoginForm {
+  text-align: left;
+  margin: auto;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  max-width: 601px;
+  max-height: 334px;
+  width: 100%;
+  height: 100%;
+}
+
+.form-control {
+  margin-left: 5%;
+  width: 70%;
+  display: inline-block;
+}
+
+.btn.btn-primary.btn-block {
+  margin: auto;
+  display: inline;
+}
+
+#SignUpForm {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%,-30%);
+  left: 50%;
+  max-width: 601px;
+  max-height: 1200px;
+  width: 100%;
+}
+
+#OrderInfoForm {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%,-100%);
+  left: 50%;
+  max-width: 601px;
+  max-height: 334px;
+  width: 100%;
+  height: 100%;
+}
+
+#Description {
+  display: block;
+  color: grey;
+}
+
+#Logo {
+  display: block;
+  float: right;
+}
+
+.btn.btn-primary.AdminButtons {
+  width: 90%;
+  height: 100%;
+  max-width: 500px;
+  max-height: 225px;
+  margin-left: 5%;
+  margin-bottom: 30px;
+}
+

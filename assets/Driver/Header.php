@@ -11,21 +11,16 @@
     <link rel="stylesheet" href="../assets/css/styles2.css">
 </head>
 
-<body style="background-color: #6DEED2;height: 636px;">
+<body style="background-color: #6deed2;">
     <nav class="navbar navbar-light navbar-expand-md" style="background-color: #1eb896;">
         <div class="container-fluid"><img src="../assets/img/logo.png" style="width: 93px;height: 71px;"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse text-right"
-                id="navcol-1">
+            <div
+                class="collapse navbar-collapse text-right" id="navcol-1">
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="GenerateReportStaff.php" style="margin-right: 2px;">Reports</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="userManagementStaff.php" style="margin-right: 98px;">Users Management</a></li>
-                    <li class="nav-item text-right" role="presentation"><a class="nav-link" href="UserProfileAdmin.php" style="margin-right: 0px;">Profile</a></li>
-<<<<<<< HEAD:Admin/Header.php
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="DriverHP.php" style="margin-right: 200px;">Orders</a></li>
+                    <li class="nav-item text-right" role="presentation"><a class="nav-link" href="UserProfileDriver.php" style="margin: 0px;margin-right: 0px;">Profile</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="../LogOut.php">Sign Out</a></li>
-=======
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="../index.php">Sign Out</a></li>
->>>>>>> 241e07ab2af16e6cf193e51f47b47eb5cac9b52b:Admin/AdminHP.html
                 </ul>
-            </div>
+        </div>
         </div>
     </nav>

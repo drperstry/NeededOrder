@@ -68,14 +68,10 @@ else {
         <div class="illustration"></div>
         <div class="form-group" style="padding: 3px;margin: 0;margin-top: 33px;margin-bottom: 20px;"><label>E-mail&nbsp; &nbsp; &nbsp;</label><input class="form-control" type="email" name="email" placeholder="Email" style="background-color: rgb(109,238,210);"></div>
         <div class="form-group" style="margin-top: 50px;margin-bottom: 60px;"><label>Password</label><input class="form-control" type="password" name="password" placeholder="Password" style="background-color: rgb(109,238,210);"></div>
-<<<<<<< HEAD:Index.php
         <div class="form-group" style="margin-bottom: 4px;"><a class="forgot" href="#" style="margin-left: 106px;">Forgot password?</a>
         <button class="btn btn-primary btn-block" name="submit" type="submit" style="width: 120px;padding-right: 0;padding-left: 0;margin-left: 20px;background-color: #6deed2;color: #070101;">login</button>
         <a class="btn btn-primary" role="button" href="SignUp.php" style="width: 120px;padding-right: 0;padding-left: 0;margin-left: 20px;background-color: rgb(109,238,210);color: rgb(33,37,41);">SignUp</a>
         </div>
-=======
-        <div class="form-group" style="margin-bottom: 4px;"><a class="forgot" href="#" style="margin-left: 106px;">Forgot password?</a><a class="btn btn-primary" role="button" href="Staff/StaffHP.php" style="width: 120px;padding-right: 0;padding-left: 0;margin-left: 106px;background-color: rgb(109,238,210);color: rgb(33,37,41);">Log In</a></div>
->>>>>>> 241e07ab2af16e6cf193e51f47b47eb5cac9b52b:index.php
     </form>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>

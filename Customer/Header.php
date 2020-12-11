@@ -21,7 +21,11 @@
                     <li class="nav-item text-right" role="presentation"><a class="nav-link" href="CustomerHP.php" style="margin: 0px;margin-right: 24px;">Stores</a></li>
                     <li class="nav-item text-right" role="presentation"><a class="nav-link" href="RecentOrdersCustomer.php" style="margin: 0px;margin-right: 89px;">My Recent Orders</a></li>
                     <li class="nav-item text-right" role="presentation"><a class="nav-link" href="UserProfileCustomer.php" style="margin: 0px;margin-right: 0px;">Profile</a></li>
+<<<<<<< HEAD
                     <li class="nav-item" role="presentation"><a class="nav-link" href="../LogOut.php">Sign Out</a></li>
+=======
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="../index.php">Sign Out</a></li>
+>>>>>>> 241e07ab2af16e6cf193e51f47b47eb5cac9b52b
                 </ul>
             </div>
         </div>
