@@ -1,3 +1,39 @@
+<?php
+include "config.php";
+
+
+if(isset($_POST["email"]) && isset($_POST["password"])){
+$PostedPass=$_POST["password"];
+$password=mysqli_real_escape_string($link,$PostedPass);
+$PostedEmail=$_POST["email"];
+$Email=mysqli_real_escape_string($link,$PostedEmail);
+
+
+$sql1="SELECT * FROM userdata WHERE email='".$PostedEmail."';";
+$result= mysqli_query($link, $sql1);
+$row = mysqli_fetch_assoc($result); //fetch data
+$hashedpass=$row['mypass'];
+$userType=$row['UType'];
+$Astatus=$row['status'];
+if(!password_verify($PostedPass, $hashedpass)){
+    echo "wrong pass";
+    header("location: index.php?error=WrongPassOrEmail");
+    exit();
+}
+else if($Astatus<=>"Active"){
+    header("location: index.php?error=banned");
+}
+else {
+    echo "good pass";
+    session_start();
+    $_SESSION["email"]= $Email;
+    $_SESSION["type"]= $userType;
+    $_SESSION["id"]= $row['id'];
+    header("location: ".$userType."/".$userType."HP.php");
+    exit();
+}
+}
+?>
 <!DOCTYPE html>
 <html>
 
@@ -26,12 +62,16 @@
         </div>
     </nav>
     <h2 class="text-center" style="margin: 20px;margin-bottom: 30px;">Login</h2>
+    
     <form id="LoginForm" method="post" style="background-color: #1eb896;padding: 29px;">
         <h2 class="sr-only">Login Form</h2>
         <div class="illustration"></div>
         <div class="form-group" style="padding: 3px;margin: 0;margin-top: 33px;margin-bottom: 20px;"><label>E-mail&nbsp; &nbsp; &nbsp;</label><input class="form-control" type="email" name="email" placeholder="Email" style="background-color: rgb(109,238,210);"></div>
         <div class="form-group" style="margin-top: 50px;margin-bottom: 60px;"><label>Password</label><input class="form-control" type="password" name="password" placeholder="Password" style="background-color: rgb(109,238,210);"></div>
-        <div class="form-group" style="margin-bottom: 4px;"><a class="forgot" href="#" style="margin-left: 106px;">Forgot password?</a><a class="btn btn-primary" role="button" href="Customer/Customer%20HP.html" style="width: 120px;padding-right: 0;padding-left: 0;margin-left: 106px;background-color: rgb(109,238,210);color: rgb(33,37,41);">Log In</a></div>
+        <div class="form-group" style="margin-bottom: 4px;"><a class="forgot" href="#" style="margin-left: 106px;">Forgot password?</a>
+        <button class="btn btn-primary btn-block" name="submit" type="submit" style="width: 120px;padding-right: 0;padding-left: 0;margin-left: 20px;background-color: #6deed2;color: #070101;">login</button>
+        <a class="btn btn-primary" role="button" href="SignUp.php" style="width: 120px;padding-right: 0;padding-left: 0;margin-left: 20px;background-color: rgb(109,238,210);color: rgb(33,37,41);">SignUp</a>
+        </div>
     </form>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
